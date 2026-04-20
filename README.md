@@ -48,7 +48,7 @@ Amaç; satış performansını analiz etmek, kârlılığı incelemek ve veri ü
 - DAX (Measure oluşturma)
 - Data Cleaning (Power Query)
 
-  ###  Dashboard Yapısı
+###  Dashboard Yapısı
 
 ###  KPI Kartları
 - Toplam Satış
@@ -84,28 +84,80 @@ Amaç; satış performansını analiz etmek, kârlılığı incelemek ve veri ü
 ### Insight (Analiz)
 
 -Veri analizi sonucunda satış performansında hem zamansal hem de bölgesel bazda önemli farklılıklar gözlemlenmiştir.
--
+
 Aylık satış trendi incelendiğinde belirli dönemlerde düşüşler ve dalgalanmalar olduğu görülmektedir. Bu durum talep değişimleri ve ürün performansıyla ilişkilidir.
--
+
 Kategori bazlı analizde bazı ürün gruplarının toplam satış performansını aşağı çektiği, bazı kategorilerin ise yüksek katkı sağladığı tespit edilmiştir.
--
+
 Şehir bazlı analizde satışların belirli bölgelerde yoğunlaştığı, bazı şehirlerde ise düşük performans görüldüğü ortaya çıkmıştır.
--
+
 Genel olarak veri, satış performansının sadece toplam rakamlarla değil; kategori, bölge ve zaman kırılımlarında incelenmesi gerektiğini göstermektedir.
--
+
 
 
 ### Action (Aksiyon Önerileri)
 
 Düşük performans gösteren kategoriler için ürün çeşitliliği ve fiyatlandırma stratejisi yeniden değerlendirilmelidir.
--
+
 Satışların düşük olduğu şehirlerde pazarlama ve müşteri kazanım çalışmaları artırılmalıdır.
--
+
 Yüksek satış yapan kategorilerde stok ve operasyon yönetimi güçlendirilmelidir.
--
+
 Aylık düşüş yaşanan dönemler detaylı incelenerek sezonluk strateji oluşturulmalıdır.
--
 
 
-- State
-- Postal Code
+## ENGLISH
+### About the Project
+
+This project was developed using the Kaggle Sample Superstore dataset in Power BI.
+
+### Dataset Columns
+Order ID
+Order Date
+Ship Date
+Customer ID
+Segment
+City
+State
+Region
+Category
+Sub-Category
+Sales
+Quantity
+Discount
+Profit
+
+### Visualizations
+Monthly Sales Trend (Line Chart)
+Sales by Category (Bar Chart)
+Sales by City (Bar Chart)
+Profit by Category (Column Chart)
+
+### Slicers
+Date (Year / Month)
+Region
+Category
+Segment
+
+
+### Insight (Analysis)
+
+-Data analysis revealed significant differences in sales performance both temporally and regionally.
+
+Examining monthly sales trends shows periods of decline and fluctuation. This is related to changes in demand and product performance.
+
+Category-based analysis showed that some product groups pulled down overall sales performance, while others made a significant contribution.
+
+City-based analysis revealed that sales were concentrated in certain regions, while some cities showed low performance.
+
+Overall, the data indicates that sales performance should be examined not only in terms of total figures but also broken down by category, region, and time.
+
+### Action (Action Suggestions)
+
+Product variety and pricing strategies should be re-evaluated for low-performing categories.
+
+Marketing and customer acquisition efforts should be increased in cities with low sales.
+
+Inventory and operations management should be strengthened in high-selling categories.
+
+Seasonal strategies should be developed by thoroughly examining periods of monthly decline.
